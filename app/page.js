@@ -41,6 +41,7 @@ export default function Home() {
           <a href="#work">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#about">About</a>
+          <a href="/Usman_Mahmood_CV.pdf" download="Usman_Mahmood_CV.pdf">CV</a>
           <a href="#contact" className="pill">Contact</a>
         </nav>
       </header>
@@ -55,6 +56,7 @@ export default function Home() {
             <div className="cta in-4">
               <a className="btn primary" href={WA} target="_blank" rel="noopener noreferrer"><WaIcon /> Chat on WhatsApp</a>
               <a className="btn" href="#work">View projects</a>
+              <a className="btn" href="/Usman_Mahmood_CV.pdf" download="Usman_Mahmood_CV.pdf">Download CV</a>
             </div>
           </div>
           <div className="photo in-2">
@@ -110,6 +112,7 @@ export default function Home() {
             <a className="btn wa" href={WA} target="_blank" rel="noopener noreferrer"><WaIcon /> WhatsApp me</a>
             <a className="btn" href={GMAIL} target="_blank" rel="noopener noreferrer">Email</a>
             <a className="btn" href={LINKEDIN} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a className="btn" href="/Usman_Mahmood_CV.pdf" download="Usman_Mahmood_CV.pdf">Download CV</a>
           </Reveal>
           <a className="mail" href={GMAIL} target="_blank" rel="noopener noreferrer">{EMAIL}</a>
         </section>
